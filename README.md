@@ -17,6 +17,7 @@
 * `apt install git -y`
 * `apt install python`
 * `pip install mechanize`
+* `pip install requests`
 * `cd FB_brute`
 * `python brute.py`
 
@@ -27,6 +28,7 @@
 * `sudo apt-get install git -y`
 * `sudo apt-get install python`
 * `sudo pip install mechanize`
+* `sudo pip install requests`
 * `cd FB_brute`
 * `python brute.py`
 
